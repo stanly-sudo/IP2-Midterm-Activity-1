@@ -1,0 +1,14 @@
+@font-face{ font-family: "Matura"; src: url(assets/MATURASC_1.TTF); } 
+
+span{ color: rgb(32, 32, 32); }
+
+input{
+    outline-style: none;
+    border-style: none;
+    border: 1px solid rgb(160, 160, 160);
+    width: 164px;
+    height: 24px;
+}
+input[type="password"]::-ms-reveal, input[type="password"]::-webkit-textfield-decoration-container{
+    display: none;
+}
